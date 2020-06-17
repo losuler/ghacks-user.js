@@ -1327,9 +1327,9 @@ user_pref("privacy.sanitize.sanitizeOnShutdown", true);
  * [SETTING] Privacy & Security>History>Custom Settings>Clear history when Firefox closes>Settings ***/
 user_pref("privacy.clearOnShutdown.cache", true);
 user_pref("privacy.clearOnShutdown.cookies", true);
-user_pref("privacy.clearOnShutdown.downloads", true); // see note above
+//user_pref("privacy.clearOnShutdown.downloads", true); // see note above
 user_pref("privacy.clearOnShutdown.formdata", true); // Form & Search History
-user_pref("privacy.clearOnShutdown.history", true); // Browsing & Download History
+//user_pref("privacy.clearOnShutdown.history", true); // Browsing & Download History
 user_pref("privacy.clearOnShutdown.offlineApps", true); // Offline Website Data
 user_pref("privacy.clearOnShutdown.sessions", true); // Active Logins
 user_pref("privacy.clearOnShutdown.siteSettings", false); // Site Preferences
