@@ -104,7 +104,8 @@ user_pref("browser.startup.homepage", "about:blank");
 /* 0104: set NEWTAB page
  * true=Activity Stream (default, see 0105), false=blank page
  * [SETTING] Home>New Windows and Tabs>New tabs ***/
-user_pref("browser.newtabpage.enabled", false);
+//user_pref("browser.newtabpage.enabled", false);
+user_pref("browser.newtab.url", "about:home");
 user_pref("browser.newtab.preload", false);
 /* 0105: disable Activity Stream stuff (AS)
  * AS is the default homepage/newtab in FF57+, based on metadata and browsing behavior.
